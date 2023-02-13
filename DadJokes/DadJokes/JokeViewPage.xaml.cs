@@ -9,14 +9,20 @@ public partial class JokeViewPage : ContentPage
     public JokeViewPage()
     {
         InitializeComponent();
+        BindingContext = this;
         Handle();
+        
+
     }
     private async void Handle()
     {
-        JokeLabel.Text = await GetContent("https://icanhazdadjoke.com/");
+        JokeView.ItemsSource = await SearchJoke(30);
     }
-    private static async Task<string> GetContent(string url)
+    private static async Task<List<Joke>> SearchJoke(int limit)
     {
+        // Default List for Jokes & URL 
+        List<Joke> list = new List<Joke>();
+        string url = $"https://icanhazdadjoke.com/search?limit={limit}";
 
         // New Request for JSON
         HttpClient client = new HttpClient();
@@ -28,6 +34,14 @@ public partial class JokeViewPage : ContentPage
         //JSON Fun Time
         string content = await response.Content.ReadAsStringAsync();
         dynamic result = JsonConvert.DeserializeObject<dynamic>(content);
-        return result.joke;
+
+        foreach (dynamic item in result.results) 
+        {
+            Joke joke = new Joke();
+            joke.Text = item.joke;
+            list.Add(joke); 
+        }
+        return list;
+
     }
 }

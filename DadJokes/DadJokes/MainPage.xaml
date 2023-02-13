@@ -28,10 +28,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
-        
-            
-            <Grid.Background>
+        <Grid.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#512BD4"
                           Offset="0.1" />
@@ -42,18 +39,56 @@
                 </LinearGradientBrush>
             </Grid.Background>
 
+
+        <Image x:Name="DadJokesImage"
+               Opacity="1"
+               Grid.Row="1"
+               Grid.Column="1"
+               Grid.ColumnSpan="5"
+               Grid.RowSpan="3"
+               Source="smile.svg"
+               Aspect="AspectFit">
+            
+        </Image>
         <Button x:Name="GenerateButton"
                 BorderWidth="1"
-                BorderColor="#20666666"
-                Grid.Row="7"
-                
+                BorderColor="#70666666"
+                Grid.Row="5"
                 FontAttributes="Bold"
-                FontSize="Large"
-                Text="Generate Joke"
+                FontSize="20"
+                Text="Generate Random Jokes"
                 TextColor="White"
                 Grid.Column="1"
                 Grid.ColumnSpan="5"
                 Clicked="GenerateButton_Clicked">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#50FFFFFF"
+                          Offset="0.0001" />
+                    <GradientStop Color="#20666666"
+                          Offset="0.002" />
+                    <GradientStop Color="#00000000"
+                          Offset="0.1" />
+                    <GradientStop Color="#00000000"
+                          Offset="0.86" />
+                    <GradientStop Color="#20666666"
+                          Offset="0.99" />
+                    <GradientStop Color="#50FFFFFF"
+                          Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="SearchButton"
+                BorderWidth="1"
+                BorderColor="#70666666"
+                Grid.Row="7"
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Search by Keyword"
+                TextColor="White"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"
+                Clicked="SearchButton_Clicked">
             <Button.Background>
                 <LinearGradientBrush>
                     <GradientStop Color="#50FFFFFF"
