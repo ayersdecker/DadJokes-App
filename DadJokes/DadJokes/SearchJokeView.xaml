@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DadJokes.SearchJokeView"
-             Title="SearchJokeView">
+             Title="Search Jokes">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="5"/>
@@ -30,15 +30,63 @@
                           Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <Entry 
+        <Entry x:Name="Entry"
             BackgroundColor="#20FFFFFF"
-            
+            Placeholder="Keyword"
             Grid.Row="1"
             Grid.Column="1"
             Grid.ColumnSpan="4"/>
-        <Button
+        <Button x:Name="Search"
             Grid.Row="1"
-            Grid.Column="6"/>
+            Grid.Column="6"
+                Text="X"
+            Clicked="Search_Clicked">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#50FFFFFF"
+                                    Offset="0.0001" />
+                    <GradientStop Color="#00000000"
+                                    Offset="0.2" />
+                    <GradientStop Color="#00000000"
+                                    Offset="0.8" />
+                    <GradientStop Color="#50FFFFFF"
+                                    Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <CollectionView x:Name="JokeView"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="8"
+                        Grid.Row="3"
+                        SelectionMode="Single"
+                        Margin="10"
+                        CanReorderItems="True">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame VerticalOptions="FillAndExpand"
+                           Margin="5">
+                        <Frame.Background>
+                            <LinearGradientBrush>
+                                <GradientStop Color="#50FFFFFF"
+                                    Offset="0.0001" />
+                                <GradientStop Color="#20666666"
+                                    Offset="0.002" />
+                                <GradientStop Color="#00000000"
+                                    Offset="0.1" />
+                                <GradientStop Color="#00000000"
+                                    Offset="0.86" />
+                                <GradientStop Color="#20666666"
+                                    Offset="0.99" />
+                                <GradientStop Color="#50FFFFFF"
+                                    Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <Label Text="{Binding Text}"/>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
 
 

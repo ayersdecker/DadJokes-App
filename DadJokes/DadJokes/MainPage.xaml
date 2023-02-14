@@ -29,17 +29,15 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-                <LinearGradientBrush EndPoint="0,1">
-                    <GradientStop Color="#512BD4"
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#512BD4"
                           Offset="0.1" />
-                    <GradientStop Color="Black"
+                <GradientStop Color="Black"
                           Offset="0.9" />
-                    <GradientStop Color="Black"
+                <GradientStop Color="Black"
                           Offset="1.0" />
-                </LinearGradientBrush>
-            </Grid.Background>
-
-
+            </LinearGradientBrush>
+        </Grid.Background>
         <Image x:Name="DadJokesImage"
                Opacity="1"
                Grid.Row="1"
@@ -47,9 +45,8 @@
                Grid.ColumnSpan="5"
                Grid.RowSpan="3"
                Source="smile.svg"
-               Aspect="AspectFit">
-            
-        </Image>
+               Aspect="AspectFit"/>
+        
         <Button x:Name="GenerateButton"
                 BorderWidth="1"
                 BorderColor="#70666666"
