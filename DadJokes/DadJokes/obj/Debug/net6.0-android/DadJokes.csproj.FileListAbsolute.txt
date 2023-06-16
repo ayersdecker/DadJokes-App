@@ -1377,7 +1377,6 @@ C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-andro
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\typemaps.x86_64.s
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\typemaps.shared.inc
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\AndroidManifest.xml
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\AndroidManifest.xml
@@ -1387,7 +1386,6 @@ C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-andro
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\bin\mono.android.jar
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\static.flag
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\buildid.txt
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\environment.x86_64.s
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\src\androidx\activity\R.java
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1893,11 +1891,6 @@ C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-andro
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\resizetizer\46DA734BA488A62A-files.cache
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\bin\packaged_resources
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\src\com\companyname\dadjokes\R.java
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.s
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\typemaps.x86_64.o
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\environment.x86_64.o
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\compressed_assemblies.x86_64.o
-C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\bin\classes.dex
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\bin\classes2.dex
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1914,3 +1907,10 @@ C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-andro
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\draye\Source\Repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.s
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\environment.arm64-v8a.s
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.s
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\typemaps.arm64-v8a.o
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\environment.arm64-v8a.o
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\draye\source\repos\DadJokesApp\DadJokes\DadJokes\obj\Debug\net6.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

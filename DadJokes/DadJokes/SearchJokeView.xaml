@@ -31,15 +31,17 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Entry x:Name="Entry"
-            BackgroundColor="#20FFFFFF"
-            Placeholder="Keyword"
+            BackgroundColor="#60FFFFFF"
+            Placeholder="    Keyword"
+               PlaceholderColor="White"
             Grid.Row="1"
             Grid.Column="1"
-            Grid.ColumnSpan="4"/>
+            Grid.ColumnSpan="5"/>
         <Button x:Name="Search"
             Grid.Row="1"
             Grid.Column="6"
                 Text="X"
+                TextColor="White"
             Clicked="Search_Clicked">
             <Button.Background>
                 <LinearGradientBrush EndPoint="1,0">
